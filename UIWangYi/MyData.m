@@ -16,7 +16,7 @@
         self.icon = icon;
     }
     return self;
-}
+}///tes
 - (NSString *)getName
 {
     return self.name;
