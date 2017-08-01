@@ -119,7 +119,8 @@
         cell.detailTextLabel.text = @"20";
 
         cell.detailTextLabel.textAlignment = NSTextAlignmentCenter;
-        cell.detailTextLabel.backgroundColor = [UIColor redColor];
+        cell.detailTextLabel.backgroundColor = [UIColor blackColor];
+
         cell.detailTextLabel.layer.cornerRadius = 5;
         cell.detailTextLabel.layer.masksToBounds = YES;
         
@@ -153,7 +154,9 @@
 //    if(section==0){
 //        return 50;
 //    }
-    return 5;
+
+
+    return 10;
 }
 
 #pragma mark 设置每行高度（每行高度可以不一样）

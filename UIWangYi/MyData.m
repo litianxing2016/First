@@ -23,6 +23,7 @@
 }
 - (NSString *)getIcon
 {
+
     return self.icon;
 }
 + (MyData *)initWithName:(NSString *)name andImageName:(NSString *)icon
